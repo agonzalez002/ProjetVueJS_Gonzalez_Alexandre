@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    background-color: #3A8EBA;
+}
+
+.alex {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.vue {
+    height: 50px;
+}
+
+nav ul {
+    width: 370px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 31px;
+}
+
+.btns .btn {
+    display: inline-block;
+    background-color: #3A8EBA;
+    border: 1px solid #3A8EBA;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.btns .btn:hover {
+    background-color: transparent;
+    color: #3A8EBA;
+    cursor: pointer;
+}
+.film {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0;
+}
+
+.film li {
+    height: 262px;
+}
+
+.film li:hover {
+    cursor: pointer;
+}
+
+.list-film {
+    margin-top: -16px;
+}
+
+.affiche {
+    width: 193px;
+    height: 262px;
+}
+
+.contenu {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.contenu .bloc-haut {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.contenu .bloc-bas .btn-2 {
+    display: block;
+    background-color: #3A8EBA;
+    border: 1px solid #3A8EBA;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.contenu .bloc-bas .btn-2:hover {
+    background-color: transparent;
+    border: 1px solid #3A8EBA;
+    color: #3A8EBA;
+    cursor: pointer;
+}
+
+.contenu .gauche img {
+    width: 330px;
+}
+
+.contenu .droite p span {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.contenu .droite span.btn {
+    display: inline-block;
+    background-color: #3A8EBA;
+    border: 1px solid #3A8EBA;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.contenu .droite span.btn:hover {
+    background-color: transparent;
+    border: 1px solid #3A8EBA;
+    color: #3A8EBA;
+    cursor: pointer;
+}
+
+.edit {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.edit .lig {
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit .lig input[type="text"] {
+    width: 50%;
+}
+
+.edit span.btn {
+    display: inline-block;
+    background-color: #3A8EBA;
+    border: 1px solid #3A8EBA;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.edit span.btn:hover {
+    background-color: transparent;
+    border: 1px solid #3A8EBA;
+    color: #3A8EBA;
+    cursor: pointer;
+}
